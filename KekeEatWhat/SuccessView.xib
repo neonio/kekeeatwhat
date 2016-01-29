@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="294"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Liu-oe-GgU">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="147"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9s-pj-hgc">
+                            <rect key="frame" x="121" y="54" width="77.5" height="38.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                            <color key="textColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.55930459499999996" green="0.8252291679" blue="0.56539779899999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="a9s-pj-hgc" firstAttribute="centerX" secondItem="Liu-oe-GgU" secondAttribute="centerX" id="c99-Zl-RtL"/>
+                        <constraint firstItem="a9s-pj-hgc" firstAttribute="centerY" secondItem="Liu-oe-GgU" secondAttribute="centerY" id="qzH-cA-hCf"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8A1-WO-Nuu">
+                    <rect key="frame" x="0.0" y="147" width="320" height="147"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Dg-Gu-wEE">
+                            <rect key="frame" x="116" y="29.5" width="88" height="88"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="BV6-NN-6dN"/>
+                                <constraint firstAttribute="width" secondItem="6Dg-Gu-wEE" secondAttribute="height" multiplier="1:1" id="dSc-fW-Kzh"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="BV6-NN-6dN"/>
+                                </mask>
+                            </variation>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="6Dg-Gu-wEE" firstAttribute="centerX" secondItem="8A1-WO-Nuu" secondAttribute="centerX" id="9t6-eb-4F2"/>
+                        <constraint firstItem="6Dg-Gu-wEE" firstAttribute="height" secondItem="8A1-WO-Nuu" secondAttribute="height" multiplier="0.6" id="FY0-tt-UY3"/>
+                        <constraint firstItem="6Dg-Gu-wEE" firstAttribute="centerY" secondItem="8A1-WO-Nuu" secondAttribute="centerY" id="MgE-q3-eV5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8A1-WO-Nuu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="70P-pq-qr7"/>
+                <constraint firstItem="Liu-oe-GgU" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="7xG-vq-cgr"/>
+                <constraint firstAttribute="trailing" secondItem="8A1-WO-Nuu" secondAttribute="trailing" id="IjQ-Bk-ncN"/>
+                <constraint firstItem="Liu-oe-GgU" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="PwU-Id-ksl"/>
+                <constraint firstAttribute="bottom" secondItem="8A1-WO-Nuu" secondAttribute="bottom" id="RPQ-Hh-49e"/>
+                <constraint firstAttribute="trailing" secondItem="Liu-oe-GgU" secondAttribute="trailing" id="b82-Iz-FF3"/>
+                <constraint firstItem="Liu-oe-GgU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fRD-Zw-Qmh"/>
+                <constraint firstItem="Liu-oe-GgU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hqf-aP-sMj"/>
+                <constraint firstItem="8A1-WO-Nuu" firstAttribute="top" secondItem="Liu-oe-GgU" secondAttribute="bottom" id="qbS-hV-dbg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="256" y="158"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NormalColor</key>
+	<array>
+		<string>#79302A</string>
+		<string>#2E8CB2</string>
+		<string>#C97963</string>
+		<string>#F55948</string>
+		<string>#F5A61E</string>
+		<string>#4DA169</string>
+		<string>#5FC782</string>
+		<string>#62A396</string>
+		<string>#8FCCC0</string>
+		<string>#4C9C9C</string>
+		<string>#5FC2C2</string>
+		<string>#3294A6</string>
+		<string>#1D7891</string>
+		<string>#41B7CC</string>
+		<string>#2498B8</string>
+		<string>#8F6DAD</string>
+		<string>#AE85D4</string>
+		<string>#8372B5</string>
+		<string>#3a3d42</string>
+		<string>#2F8FB4</string>
+		<string>#9E8ADB</string>
+	</array>
+</dict>
+</plist>

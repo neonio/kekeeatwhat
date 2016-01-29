@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "意见反馈"; ObjectID = "1mB-N5-jBW"; */
+"1mB-N5-jBW.text" = "意见反馈";
+
+/* Class = "UILabel"; text = "偏好"; ObjectID = "7rc-Q6-Hug"; */
+"7rc-Q6-Hug.text" = "偏好";
+
+/* Class = "UILabel"; text = "历史"; ObjectID = "P2P-h6-zGS"; */
+"P2P-h6-zGS.text" = "历史";
+
+/* Class = "UILabel"; text = "返回"; ObjectID = "PeP-iz-rxb"; */
+"PeP-iz-rxb.text" = "返回";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RJK-75-iar"; */
+"RJK-75-iar.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rbp-zD-kSy"; */
+"Rbp-zD-kSy.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "分享"; ObjectID = "Sgw-KB-dza"; */
+"Sgw-KB-dza.text" = "分享";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "VKq-iz-TMg"; */
+"VKq-iz-TMg.normalTitle" = "确定";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WF5-Y4-2Ek"; */
+"WF5-Y4-2Ek.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "YHU-5N-XEQ"; */
+"YHU-5N-XEQ.normalTitle" = "取消";
+
+/* Class = "UIButton"; normalTitle = "发送"; ObjectID = "bpF-20-fMG"; */
+"bpF-20-fMG.normalTitle" = "发送";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jAj-FM-4QT"; */
+"jAj-FM-4QT.text" = "Label";
+
+/* Class = "UILabel"; text = "寿司"; ObjectID = "lFx-S3-b5S"; */
+"lFx-S3-b5S.text" = "寿司";
+
+/* Class = "UITextField"; placeholder = "添加新菜单"; ObjectID = "nHS-qr-GMh"; */
+"nHS-qr-GMh.placeholder" = "添加新菜单";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "uZz-XR-ViU"; */
+"uZz-XR-ViU.normalTitle" = "取消";
+
+/* Class = "UIButton"; normalTitle = "附件"; ObjectID = "urd-rh-S4i"; */
+"urd-rh-S4i.normalTitle" = "附件";
+
+/* Class = "UILabel"; text = "选择图片"; ObjectID = "wU6-cT-dRO"; */
+"wU6-cT-dRO.text" = "选择图片";
